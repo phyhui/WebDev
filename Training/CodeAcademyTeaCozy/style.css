@@ -1,0 +1,51 @@
+.header {
+    height:69px;
+    background-color:black;
+    width:100%;
+    border-bottom: 1px solid seashell;
+    text-align: center;
+    display: flex;
+    position: fixed;
+}
+#logo {
+    height:50px;
+}
+body {
+    font-family: Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    opacity: 0.9;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.ourMission {
+    height:700px;
+    background-color: red;
+}
+.featuredTea {
+    height:600px;
+    width:1000px;
+    background-color: green;
+    margin:auto;
+}
+.locations {
+    height: 500px;
+    background-color: blueviolet;
+
+}
+.footer {
+    height: 200px;
+    background-color: white;
+}
+a{
+    text-decoration: underline;
+    text-align: right;
+    margin: 10px;
+}
+.links {
+    margin-left: auto;
+    align-self: center;
+}
+
