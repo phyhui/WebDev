@@ -1,0 +1,35 @@
+Create backend: npm install -g @sanity/cli
+sanity init --coupon javascriptmastery2022
+
+Dependencies installed: npm install @sanity/client @sanity/image-url framer-motion node-sass react-icons react-tooltip
+
+Create frontend: npx create-react-app frontend_react
+
+Backend:
+Create new Schemas in schemas folder
+
+Frontend:
+delete src folder for self setup
+create folder structure: assets, components, container
+
+assets: all media(images, etc)
+components: all own components like navbar is a component + index.js export as Navbar for better accessability
+constants: create exports of things like all images from the assets folder and save it into one variable
+container: make a folder for every part of your page where you are storing your .jsx and .scss
+
+frontend_react:
+App.js: import all site sections from container. Import navbar from components and the stylsheet scss.
+Display all site sections in the app function
+
+App.scss: SCSS-Stylesheet
+
+index.css: Basic CSS-Stylesheet
+
+index.js: Render the app
+
+frontend_react/container:
+index.js: export all the sections for easier accessability
+
+frontend_react/container/*:
+.jsx: react.js file for content -> import SCSS-Stylesheet
+.scss: scss-stylesheet
