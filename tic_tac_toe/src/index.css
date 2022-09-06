@@ -1,0 +1,14 @@
+.__container{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    flex-wrap: wrap;
+}
+.__squares{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
